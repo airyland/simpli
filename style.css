@@ -1,0 +1,426 @@
+/*
+Theme Name: Just Lucid
+Theme URI: http://www.themelab.com/free-wordpress-themes/
+Description: A simple theme.  Visit <a href="http://www.themelab.com">Theme Lab</a> for more free themes and <a href="http://www.demusdesign.com/">DemusDesign</a> for more free templates.
+Version: 1.0
+Author: Theme Lab
+Author URI: http://www.themelab.com/
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+html, body {
+	height: 100%;
+	}
+	
+body {
+	background: #ECECEC url('images/bigbg.jpg') repeat-y center top;
+	font: 400 1.0em 'lucida sans','lucida sans unicode','gill sans','verdana',sans-serif;
+	color: #777;
+	}
+	
+#wrap {
+	width: 990px;
+	margin: 0 auto;
+	padding-top: 40px;
+	background: #FFF url('images/1024bg.jpg') repeat-y left top;
+	}
+	
+a {
+	text-decoration: underline;
+	color: #777;
+	}
+
+a:hover {
+	text-decoration: none;
+	color: #000;
+	}
+	
+img.topleft {
+	float: left;
+	}
+
+ul {
+	padding: 0;
+	margin: 0;
+	}
+
+.head { 
+	font: 400 1.7em 'lucida sans','lucida sans unicode','verdana',sans-serif;
+	color: #666;
+	margin-left: 170px;
+	padding-top: 15px;
+	}
+
+.head a { text-decoration: none; }
+	
+.head span {
+	margin-left: 10px;
+	color: #AAA;
+	}
+
+#nav {
+	width: 970px;
+	clear: both;
+	}
+
+.menu {
+	width: 150px;
+	background: transparent url('images/splash2.jpg') no-repeat center right;
+	margin: 20px 0 10px 0;
+	padding-right: 820px;
+	float: left;
+	clear: both;
+	}
+	
+.menu ul {
+	list-style: none;
+	margin: 10px 0 10px 0;
+	padding: 0;
+	}
+	
+.menu  li {
+	padding: 8px 0 8px 0px;
+	text-align: center;
+	}
+
+.menu  li a {
+	padding: 0 0 0 0px;
+	color: #AAA;
+	text-decoration: none;
+	font: 400 1.0em 'lucida sans','lucida sans unicode','verdana',sans-serif;
+	}
+
+.menu  li a:hover {
+	color: #333;
+	}
+	
+#main {
+	width: 800px;
+	margin: 12px 20px 0 170px;
+	padding-bottom: 50px;
+	}
+	
+.sidebar {
+		width: 150px;
+		float: right;
+		clear: none;
+		margin-left: 10px;
+		font-size: 0.7em;
+		}
+
+.sidebar ul {
+	list-style-type: none;
+	}
+	
+.sidebar li {
+	margin-bottom: 5px;
+	background: #E5E5E5 url('images/sidebar_corner.gif') no-repeat top right;
+	border-bottom: 1px solid #DDD; border-left: 1px solid #DDD;
+	padding: 8px;
+	}
+
+.sidebar li a {
+	text-decoration: none;
+	display: block;
+	}
+
+.sidebar li:hover {
+	background-image: none;
+	background-color: #DDD;
+	border-bottom: 1px solid #aaa; border-left: 1px solid #aaa;
+	color: #333;
+	}
+
+.subnav {
+	width: 100%;
+	background: #FFF url('images/underline.gif') repeat-x bottom left;
+	text-align: left;
+	margin-bottom: 18px;
+	}
+	
+.subnav span.title {
+	display: block;
+	clear: none;
+	text-decoration: none;
+	color: #666;
+	padding-bottom: 12px;
+	}
+
+.subnav ul {
+	list-style: none;
+	float: right;
+	}
+
+.subnav ul li {
+	float: left;
+	}
+
+.subnav ul li a {
+	margin: 0 0 0 20px;
+	font-size: 0.8em;
+	padding: 0px 0 12px 0;
+	line-height: 1.5em;
+	color: #AAA;
+	text-decoration: none;
+	display: block;
+	}
+	
+.subnav ul li a:hover {
+	color: #000;
+	background: url('images/underline_arrow.gif') no-repeat bottom center;
+	}
+
+.clear50 {
+	clear: left;
+	padding: 25px 0;
+	font-size: 0;
+	}
+
+.clearer {
+	clear: left; 
+	line-height: 0; 
+	height: 0;
+	font-size: 0;
+	}
+
+h1 {
+	font-size: 1.2em;
+	color: #333;
+	font-weight: 600;
+	margin: 15px 0 10px 0;
+	}
+
+h2 {
+	font-size: 1.0em;
+	color: #666;
+	font-weight: 400;
+	margin-bottom: 10px;
+	}
+
+h2 span {
+	margin-left: 10px;
+	color: #AAA;
+	}
+
+h3 {
+	font-family:"\5FAE\8F6F\96C5\9ED1";
+	color:#006699;
+	margin: 5px;
+	font-size: 0.9em;
+	/*border-bottom:1px dashed #006699;*/
+	}
+	
+	
+h4 {
+	color: #999;
+	margin-bottom: 5px;
+	font-size: 0.9em;
+	}
+
+p.main {
+	font-size: 0.8em;
+	font-family: arial,sans-serif;
+	line-height: 1.6em;
+	margin: 5px 160px 15px 0;
+	}
+
+span.bold {
+	color: #555;
+	font-weight: 600;
+	}
+
+.entry {
+	padding: 10px 0 2px 0px;
+	border-top: 1px solid #CCC;
+	line-height: 1.4em;
+	margin: 0 170px 25px 0;
+	}
+
+.entry .title {
+	font-size: 1.0em;
+	color: #666;
+	font-weight: 400;
+	margin-bottom: 10px;
+	}
+	
+.entry h2 span {
+	float: right;
+	font-size: 0.7em;
+	color: #AAA;
+	}
+
+.entry p {
+	font-size: 0.8em;
+	}
+
+.comment, comment a {
+	margin-top: 5px;
+	font-size: 0.7em;
+	padding: 5px 0;
+	}
+	
+ol {
+	color: #444;
+	font: 600 0.8em 'lucida sans','lucida sans unicode','verdana',sans-serif;
+	margin: 5px 0;
+	}
+ 
+ol span {
+	font: 400 1.0em 'lucida sans','lucida sans unicode','verdana',sans-serif;
+	color: #666;
+	font-style: normal;
+	}
+
+ol li {
+	margin-left: 30px;
+	padding: 4px 0
+	}
+
+ul.content {
+	font-size: 0.8em;
+	list-style-type: none;
+	margin-left: 10px;
+	}
+	
+.content li {
+	padding: 4px 0 4px 20px;
+	background: url('images/bullet.gif') no-repeat left center;
+	}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;  
+  
+  font-size: 1em;
+  border-collapse: collapse;
+}
+
+table caption {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  padding: 0 0 0 3px;
+  font: 400 1.2em 'lucida sans','lucida sans unicode','gill sans','verdana',sans-serif;
+  text-align: left;  
+}
+
+table th,
+table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 4px 7px !important;
+  padding: 6px 10px;
+}
+
+thead {
+  border: 1px solid #CCC;
+  }
+
+thead th {
+	font-size: 0.9em;
+  color: #555;
+  background: #EEE;
+}
+
+
+tbody tr {
+	font-size: 0.8em;
+  border-bottom: 1px solid #EEE; border-right: 1px solid #EEE; border-left: 1px solid #EEE;
+}
+
+
+form label{
+	display:block;
+	}
+
+form p {
+	font-size: 0.8em;
+	margin-bottom: 10px;
+	}
+
+form input.text, form textarea{
+	width:55%;
+	border:1px #CCC solid;
+	color:#666;
+	padding: 4px 5px;
+	font:12px 'lucida sans','lucida sans unicode','gill sans','verdana',sans-serif;
+	background-color: #F3F3F3;
+	}
+
+form input.text:hover, form textarea:hover{
+	border:1px #999 solid;
+	}
+
+form input.text:focus, form textarea:focus{
+	border:1px #999 solid;
+	color:#666;
+	}
+
+form input.button{
+	margin-right:8px;
+	padding:3px 5px;
+	font:12px Verdana,Arial,san-serif;
+	}
+
+* html form input.text,
+
+* html form textarea{
+	border-color:#533a18;
+	color:#333;
+	}
+
+.footer {
+	width: 800px;
+	border: 1px solid #CCC;
+	font-size: 0.7em;
+	clear: both;
+	}
+
+	
+.footer p {
+	padding: 10px;
+	}
+
+.footer .footnav {
+	border-bottom: 1px solid #CCC;
+	padding: 10px;
+	}
+
+.footnav a {
+	text-decoration: none;
+	padding-right: 15px;
+	}
+
+.footnav a.first {
+	font-size: 1.5em;
+	font-weight: 800;
+	}
+
+.linksleft {
+	float: left;
+	margin-right: 10px;
+	width: 170px;
+	padding: 0 10px 0px 0px;
+	list-style-type: none;
+	}
+
+.linksleft ul {
+	list-style-type: none;
+	}
+
+.linksleft li {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	}
+
+.linksleft li a {
+	padding: 4px;
+	display: block;
+	margin:  0;
+	text-decoration:none;
+	}
